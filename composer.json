@@ -1,0 +1,24 @@
+{
+    "name": "yafbase",
+    "description": "yaf 基础框架",
+    "type": "yes",
+    "license": "无",
+    "authors": [
+        {
+            "name": "zhangyunhua",
+            "email": "3059543@qq.com"
+        }
+    ],
+    "config":{"secure-http":false},
+    "minimum-stability": "stable",
+    
+    "repositories": [{
+        "type": "composer",
+        "url": "http://packagist.i.cacf.cn"
+      }]
+	  ,
+	 "require": {
+           "transformers/es": "0.1"
+    }
+    
+}
